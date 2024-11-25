@@ -149,3 +149,13 @@ dict1.update(dict2)
   - Access by key: O(1) on average.
 - **Sets**:
   - Membership checks: O(1) on average.
+
+---
+### **Conclusion**
+
+| **Data Structure** | **Type**            | **Key Features**                                                                 | **Use Cases**                                                                 |
+|---------------------|---------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **List**            | Mutable, Ordered   | - Allows duplicates. <br> - Elements are indexed, allowing random access.        | Storing sequences of data that can grow or shrink dynamically.               |
+| **Tuple**           | Immutable, Ordered | - Fixed size. <br> - Faster than lists. <br> - Can be used as keys in dictionaries (hashable). | Storing fixed data like geographic coordinates or configuration parameters.  |
+| **Set**             | Mutable, Unordered | - Stores unique elements. <br> - Supports fast membership tests.                 | Removing duplicates, performing mathematical set operations (union, etc.).   |
+| **Dictionary**      | Mutable, Key-Value | - Maps keys to values for fast lookups. <br> - Keys must be unique and hashable.  | Associating related data, such as customer IDs to transactions.              |
