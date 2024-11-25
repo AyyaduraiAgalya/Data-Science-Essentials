@@ -23,9 +23,8 @@ location_map = {(10.5, 20.3): "Work", (10.3, 20.5): "Home"}
 print(f"Location Map: {location_map}")
 
 """
-Interview Questions
-What are the key differences between lists and tuples in Python?
+1. What are the key differences between lists and tuples in Python?
 Answer: Lists are mutable, meaning their contents can be modified, whereas tuples are immutable, meaning their contents cannot be changed once created.
-When would you use a tuple over a list?
+2. When would you use a tuple over a list?
 Answer: Use tuples when you need a fixed collection of elements, such as coordinates or dictionary keys.
 """
