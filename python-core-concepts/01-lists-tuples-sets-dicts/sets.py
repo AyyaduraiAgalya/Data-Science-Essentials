@@ -47,4 +47,30 @@ Answer: Convert the list to a set:
     unique_products = set(product_list)
     print(unique_products)
 ```
+3. What are sets in Python, and how do they differ from lists?
+Answer: Sets are unordered collections of unique elements, while lists allow duplicates and maintain order.
+Use Case:
+Deduplicating data:
+```
+    data = [1, 2, 2, 3, 3, 3]
+    unique_data = set(data)
+    print(unique_data)  # Output: {1, 2, 3}
+```
+4. How would you remove duplicates from a list using a set?
+Answer: Convert the list to a set, then back to a list (if ordering doesn’t matter):
+```
+    data = [1, 2, 2, 3]
+    unique_data = list(set(data))
+    print(unique_data)  # Output: [1, 2, 3]
+```
+
+5.How would you remove duplicates from a list while maintaining order?
+```
+    data = [1, 2, 2, 3]
+    deduplicated = []
+    for item in data:
+        if item not in deduplicated:
+            deduplicated.append(item)
+    print(deduplicated)  # Output: [1, 2, 3]
+```
 """

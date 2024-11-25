@@ -40,5 +40,20 @@ print(merged_customer_transactions)
 1. What are dictionaries in Python, and how do they differ from lists?
 Answer: Dictionaries store data as key-value pairs, while lists store ordered collections of items. Access in dictionaries is via keys, making it faster for lookups.
 2. How do you merge two dictionaries in Python?
-Answer: In Python 3.9+, use the | operator to merge dictionaries
+Answer: 
+    In Python 3.9+, use the | operator to merge dictionaries
+    In earlier versions, use update() eg. dict1.update(dict2)
+"""
+
+"""
+LISTS VERSUS DICTIONARIES
+Why It Matters in Data Science
+Lists:
+-Use when you need ordered data or perform iterative computations.
+-Avoid searching large lists frequently, as it’s slow (O(n)).
+
+Dictionaries:
+-Ideal for fast lookups and storing mappings (e.g., customer IDs to transactions).
+-For large datasets, dictionaries outperform lists for accessing or updating elements.
+
 """
