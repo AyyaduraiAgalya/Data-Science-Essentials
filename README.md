@@ -88,7 +88,7 @@ The following areas are being actively worked on and will be added soon:
 4. **MLOps**: Deploying ML models using **Flask** and **Streamlit**, with CI/CD integration.
 
 ### **Completion Goals**:
-The repository aims to provide a **comprehensive portfolio** of essential data science concepts, workflows, and projects by 31 Jan 2024.
+The repository aims to provide a **comprehensive portfolio** of essential data science concepts, workflows, and projects.
 
 ---
 
@@ -142,7 +142,7 @@ Feel free to contribute by submitting pull requests or opening issues! Suggestio
 ---
 
 ## **Contact**
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/agalya-ayyadurai-286517172/)  
-- **Portfolio**: [Your Portfolio](https://agalya-ayyadurai-portfolio.onrender.com)  
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/agalya-ayyadurai-286517172/)  
+- **Portfolio**: [Portfolio](https://agalya-ayyadurai-portfolio.onrender.com)  
 
 ---
